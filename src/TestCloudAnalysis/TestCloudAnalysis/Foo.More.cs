@@ -7,6 +7,6 @@ public partial class Foo
 {
     private static bool Validation(object sender, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors)
     {
-        return false;
+        return true;
     }
 }
